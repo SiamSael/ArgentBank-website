@@ -1,5 +1,4 @@
 const Feature = (Data) => {
-    console.log(Data.img)
     return (
         <div className="feature-item" key={ Data.id }>
           <img

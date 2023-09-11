@@ -13,6 +13,13 @@ body {
   min-height: 100vh;
 }
 
+ #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+ }
+
 .main {
   flex: 1;
 }
@@ -184,7 +191,7 @@ body {
 }
 
 .sign-in-icon {
-  font-size: 5rem;
+  justify-content: center;
 }
 
 .input-remember {
