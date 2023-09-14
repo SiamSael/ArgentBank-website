@@ -1,4 +1,4 @@
-import featuresDatas from '../../datas/features.json';
+import featuresDatas from '../../utils/datas/features.json';
 import Feature from '../Feature';
 
 const Datas = featuresDatas; 

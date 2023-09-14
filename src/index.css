@@ -169,6 +169,16 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.error-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: crimson;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
 .sign-in-button {
   display: block;
   width: 100%;
