@@ -69,11 +69,12 @@ body {
   text-decoration: underline;
 }
 
-.fa-user-circle {
+.fa-user-circle, .fa-sign-out {
   display: flex;
   align-items: center;
   margin-right: 4px;
   transform: translateY(-1px);
+  margin-left: 16px !important;
 }
 
 .main-nav-logo {

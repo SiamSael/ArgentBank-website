@@ -30,11 +30,11 @@ const Authentification = () => {
                     <span className="error-form">{authentification.status === 'rejected' ? 'Authentification rejected' : ''}</span>
                     <div className="input-wrapper">
                         <label htmlFor="username">Username</label>
-                        <input type="text" id="username" value="steve@rogers.com" />
+                        <input type="text" id="username" />
                     </div>
                     <div className="input-wrapper">
                         <label htmlFor="password">Password</label>
-                        <input type="password" id="password" value="password456" />
+                        <input type="password" id="password" />
                     </div>
                     <div className="input-remember">
                         <input type="checkbox" id="remember-me" />
