@@ -7,7 +7,7 @@ import { fetchOrUpdateAuthentification } from '../../features/authentification'
 const Authentification = () => {
 
     const form = useRef()
-    // On utilise dispatch pour exécuter un thunk
+
     const dispatch = useDispatch()
 
     const handleSubmit = (event) => {
@@ -29,7 +29,7 @@ const Authentification = () => {
                 <form  id="authentification" method="post" onSubmit={(event) => handleSubmit(event)} ref={form}>
                     <span className="error-form">{authentification.status === 'rejected' ? 'Authentification rejected' : ''}</span>
                     <div className="input-wrapper">
-                        <label htmlFor="username">Username</label>
+                        <label htmlFor="username">Email</label>
                         <input type="text" id="username" />
                     </div>
                     <div className="input-wrapper">

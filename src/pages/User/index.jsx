@@ -5,13 +5,11 @@ import { useDispatch, useSelector } from 'react-redux'
 import { selectProfil } from "../../utils/selectors";
 import UserHeader from "../../components/UserHeader";
 
-
 const User = () => {
-
 
     const profil = useSelector(selectProfil)
     let datasUser = profil.data
-
+ 
     const dispatch = useDispatch()
 
     useEffect (() => {
