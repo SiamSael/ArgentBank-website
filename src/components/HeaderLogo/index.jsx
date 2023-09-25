@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Logo from'../../img/argentBankLogo.png'
+import Logo from'../../img/argentBankLogo.jpg'
 
 const HeaderLogo = () => {
     return (
